@@ -1,16 +1,16 @@
-package ru.gb.Lesson3.model;
+package ru.gb.Lesson4.model;
 
 import lombok.Data;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+
 
 @Data
 public class Timesheet {
     private Long id;
     private Long projectId;
-    private int minute;
-    private LocalDateTime createdAt;
+    private int minutes;
+    private LocalDate createdAt;
 
 
 }

@@ -1,11 +1,10 @@
-package ru.gb.Lesson3.controller;
+package ru.gb.Lesson4.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.gb.Lesson3.model.Project;
-import ru.gb.Lesson3.model.Timesheet;
-import ru.gb.Lesson3.service.ProjectService;
+import ru.gb.Lesson4.model.Project;
+import ru.gb.Lesson4.service.ProjectService;
 
 import java.util.List;
 import java.util.Optional;
@@ -22,7 +21,7 @@ public class ProjectController {
 
     @GetMapping("{id}")
     public ResponseEntity<Project> get(@PathVariable Long id) {
-        Optional<Project> project = service.getById(id);
+        Optional<Project> project = service.findById(id);
         if (project.isPresent()) {
 
             return ResponseEntity.ok().body(project.get());
@@ -32,7 +31,7 @@ public class ProjectController {
 
     @GetMapping
     public ResponseEntity<List<Project>> getAll() {
-        return ResponseEntity.ok(service.getAll());
+        return ResponseEntity.ok(service.finddAll());
     }
 
     @PostMapping

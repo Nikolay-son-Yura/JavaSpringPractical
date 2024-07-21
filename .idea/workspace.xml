@@ -4,18 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b8883af-fe8a-4809-b91d-83835197fca6" name="Changes" comment="commit2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/TimesheetApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/controller/TimesheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Timesheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/repository/TimesheetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/service/TimesheetService.java" afterDir="false" />
+    <list default="true" id="2b8883af-fe8a-4809-b91d-83835197fca6" name="Changes" comment="commit2.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/TimesheetApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/controller/TimesheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/model/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/model/Timesheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/page/PageExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/page/ProjectPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/page/ProjectPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/page/TimesheetPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/page/TimesheetPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/repository/TimesheetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/service/ProjectPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/service/TimesheetPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/service/TimesheetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/not-found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/oops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/project-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/projects-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/timesheet-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/timesheets-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/TimesheetApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/TimesheetApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Timesheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Timesheet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +50,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/time/LocalDateTime.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -48,15 +71,29 @@
     "Application.Main.executor": "Run",
     "Application.Program.executor": "Run",
     "Application.TimesheetApplication.executor": "Run",
+    "Application.ru.gb.Lesson4.TimesheetApplication.executor": "Run",
+    "Application.ru.gb.lesson4.TimesheetApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Lesson/MyWebApplication",
+    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/JavaSpringPractical/src/main/resources",
     "onboarding.tips.debug.path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/JavaSpringPractical/src/main/java/ru/gb/Main.java",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TimesheetApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\resources" />
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\lesson4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.Lesson4.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ru.gb.Lesson4.TimesheetApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.Main" />
       <module name="JavaSpringPractical" />
@@ -96,8 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.Lesson4.TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson4.TimesheetApplication" />
+      <module name="JavaSpringPractical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.Lesson4.TimesheetApplication" />
         <item itemvalue="Application.TimesheetApplication" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main" />
@@ -161,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721110663716</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit2.1">
+      <option name="closed" value="true" />
+      <created>1721296224485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721296224485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +238,7 @@
     <MESSAGE value="cgvh" />
     <MESSAGE value="сщььше 0" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="commit2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit2.1" />
   </component>
 </project>
