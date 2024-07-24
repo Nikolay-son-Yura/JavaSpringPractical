@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.gb.Lesson5.model.Timesheet;
 import ru.gb.Lesson5.service.TimesheetService;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,8 +30,11 @@ public class TimesheetController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Timesheet>> getAll() {
-        return ResponseEntity.ok(service.findAll());
+    public ResponseEntity<List<Timesheet>> getAll(
+            @RequestParam(required = false) LocalDate createdAtBefore,
+            @RequestParam(required = false) LocalDate createdAtAfter) {
+        return ResponseEntity.ok(service.findAll(createdAtBefore, createdAtAfter));
+
     }
 
     @PostMapping

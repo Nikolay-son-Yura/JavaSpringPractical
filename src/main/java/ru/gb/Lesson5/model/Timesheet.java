@@ -17,7 +17,7 @@ public class Timesheet {
     @EqualsAndHashCode.Include
     private Long id;
     private Long projectId;
-    private int minutes;
+    private Integer minutes;
     private LocalDate createdAt;
 
     @ManyToOne

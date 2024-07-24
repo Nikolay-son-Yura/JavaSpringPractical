@@ -5,7 +5,9 @@ import ru.gb.Lesson5.model.Timesheet;
 import ru.gb.Lesson5.repository.ProjectRepository;
 import ru.gb.Lesson5.repository.TimesheetRepository;
 
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 @Service
@@ -23,7 +25,21 @@ public class TimesheetService {
         return timesheetRepository.findById(id);
     }
 
-    public List<Timesheet> findAll() {
+    public List<Timesheet> findByProject(Long id) {
+        return timesheetRepository.findByProjectId(id);
+    }
+
+    public List<Timesheet> findByEmployee(Long id) {
+        return timesheetRepository.findByEmployeeId(id);
+    }
+
+    public List<Timesheet> findAll(LocalDate createdAtBefore, LocalDate createdAtAfter) {
+        if (Objects.nonNull(createdAtBefore)) {
+            return timesheetRepository.findByDateCreatedBefore(createdAtBefore);
+        }
+        if (Objects.nonNull(createdAtAfter)) {
+            return timesheetRepository.findByDateCreatedAfter(createdAtAfter);
+        }
         return timesheetRepository.findAll();
     }
 
@@ -34,4 +50,6 @@ public class TimesheetService {
     public void delete(Long id) {
         timesheetRepository.deleteById(id);
     }
+
+
 }
