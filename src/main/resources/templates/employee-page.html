@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home / Employee Page</title>
+</head>
+<body>
+<h1>Сотрудник #<span th:text="${employee.id}"></span></h1>
+Имя: <span th:text="${employee.name}"></span> <br>
+Проект: <span th:text="${timesheet.project.id}"></span></br>
+
+
+</body>
+</html>
