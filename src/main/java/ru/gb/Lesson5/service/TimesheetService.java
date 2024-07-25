@@ -32,13 +32,16 @@ public class TimesheetService {
     public List<Timesheet> findByEmployee(Long id) {
         return timesheetRepository.findByEmployeeId(id);
     }
+    public List<Timesheet> findAll() {
+        return findAll(null, null);
+    }
 
     public List<Timesheet> findAll(LocalDate createdAtBefore, LocalDate createdAtAfter) {
         if (Objects.nonNull(createdAtBefore)) {
-            return timesheetRepository.findByDateCreatedBefore(createdAtBefore);
+            return timesheetRepository.findByCreatedAtBefore(createdAtBefore);
         }
         if (Objects.nonNull(createdAtAfter)) {
-            return timesheetRepository.findByDateCreatedAfter(createdAtAfter);
+            return timesheetRepository.findByCreatedAtAfter(createdAtAfter);
         }
         return timesheetRepository.findAll();
     }

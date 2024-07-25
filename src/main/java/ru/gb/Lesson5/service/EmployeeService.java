@@ -7,7 +7,7 @@ import ru.gb.Lesson5.repository.EmployeeRepository;
 import ru.gb.Lesson5.repository.TimesheetRepository;
 
 import java.util.List;
-import java.util.NoSuchElementException;
+
 import java.util.Optional;
 
 @Service
@@ -25,13 +25,13 @@ public class EmployeeService {
         return employeeRepository.findById(id);
     }
 
-    public List<Timesheet> getTimesheetsByProjectId(Long id) {
-        if (employeeRepository.findById(id).isEmpty()) {
-            throw new NoSuchElementException("Employee with id = " + id + " does not exists");
-        }
-
-        return timesheetRepository.findByProjectId(id);
-    }
+//    public List<Timesheet> getTimesheetsByProjectId(Long id) {
+//        if (employeeRepository.findById(id).isEmpty()) {
+//            throw new NoSuchElementException("Employee with id = " + id + " does not exists");
+//        }
+//
+//        return timesheetRepository.findByProjectId(id);
+//    }
 
     public List<Employee> findAll() {
         return employeeRepository.findAll();

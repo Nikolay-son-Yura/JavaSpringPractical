@@ -9,6 +9,7 @@ import ru.gb.Lesson5.model.ExceptionResponse;
 import java.util.NoSuchElementException;
 
 @RestControllerAdvice(basePackageClasses = ExceptionController.class)
+
 public class ExceptionController {
 
   @ExceptionHandler(Exception.class)

@@ -31,15 +31,15 @@ public class TimesheetPageService {
     }
 
     private TimesheetPageDto convert(Timesheet timesheet) {
-        Project project = projectService.findById(timesheet.getProjectId())
-                .orElseThrow();
 
         TimesheetPageDto timesheetPageParameters = new TimesheetPageDto();
-        timesheetPageParameters.setProjectName(project.getName());
+
         timesheetPageParameters.setId(String.valueOf(timesheet.getId()));
-        timesheetPageParameters.setProjectId(String.valueOf(timesheet.getProjectId()));
         timesheetPageParameters.setMinutes(String.valueOf(timesheet.getMinutes()));
         timesheetPageParameters.setCreatedAt(timesheet.getCreatedAt().format(DateTimeFormatter.ISO_DATE));
+        timesheetPageParameters.setCreatedAt(timesheet.getCreatedAt().format(DateTimeFormatter.ISO_DATE));
+        timesheetPageParameters.setProject(timesheet.getProject());
+        timesheetPageParameters.setEmployee(timesheet.getEmployee());
 
         return timesheetPageParameters;
     }

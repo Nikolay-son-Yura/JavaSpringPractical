@@ -12,9 +12,9 @@ public interface TimesheetRepository extends JpaRepository<Timesheet, Long> {
 
     List<Timesheet> findByEmployeeId(Long EmployeeId);
 
-    List<Timesheet> findByDateCreatedAfter(LocalDate dataAfter);
+    List<Timesheet> findByCreatedAtAfter(LocalDate dataAfter);
 
-    List<Timesheet> findByDateCreatedBefore(LocalDate dataBefore);
+    List<Timesheet> findByCreatedAtBefore(LocalDate dataBefore);
 
 
 //    @Query("select t from Timesheet t where t.projectId = :projectId order by t.createdAt desc")

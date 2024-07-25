@@ -13,10 +13,9 @@ import java.time.LocalDate;
 public class Timesheet {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
-    private Long projectId;
     private Integer minutes;
     private LocalDate createdAt;
 
