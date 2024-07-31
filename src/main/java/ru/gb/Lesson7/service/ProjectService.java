@@ -1,13 +1,13 @@
-package ru.gb.Lesson5.service;
+package ru.gb.Lesson7.service;
 
 import org.springframework.stereotype.Service;
-import ru.gb.Lesson5.model.Project;
-import ru.gb.Lesson5.model.Timesheet;
-import ru.gb.Lesson5.repository.ProjectRepository;
-import ru.gb.Lesson5.repository.TimesheetRepository;
+import ru.gb.Lesson7.model.Project;
+import ru.gb.Lesson7.model.Timesheet;
+import ru.gb.Lesson7.repository.ProjectRepository;
+import ru.gb.Lesson7.repository.TimesheetRepository;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
@@ -20,16 +20,17 @@ public class ProjectService {
         this.timesheetRepository = timesheetRepository;
     }
 
+    public List<Timesheet> findTimesheetsByProjectId(Long id){
+        List<Timesheet> timesheetsByProjectId = new ArrayList<>();
+        for (Timesheet timesheet : timesheetRepository.findAll()) {
+            if(timesheet.getProjectId().equals(id)){
+                timesheetsByProjectId.add(timesheet);
+            }
+        }
+        return timesheetsByProjectId;
+    }
     public Optional<Project> findById(Long id) {
         return projectRepository.findById(id);
-    }
-
-    public List<Timesheet> getTimesheets(Long id) {
-        if (projectRepository.findById(id).isEmpty()) {
-            throw new NoSuchElementException("Project with id = " + id + " does not exists");
-        }
-
-        return timesheetRepository.findByProjectId(id);
     }
 
     public List<Project> findAll() {

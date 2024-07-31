@@ -12,5 +12,11 @@ public class Timesheet {
     private int minute;
     private LocalDateTime createdAt;
 
+    public Long getProjectId() {
+        return projectId;
+    }
 
+    public void setProjectId(Long projectId) {
+        this.projectId = projectId;
+    }
 }

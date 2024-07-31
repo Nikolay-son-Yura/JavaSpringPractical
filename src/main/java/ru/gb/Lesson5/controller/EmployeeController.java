@@ -22,11 +22,7 @@ public class EmployeeController {
     @GetMapping("{id}")
     public ResponseEntity<Employee> get(@PathVariable Long id) {
         Optional<Employee> employee = service.findById(id);
-        if (employee.isPresent()) {
-
-            return ResponseEntity.ok().body(employee.get());
-        }
-        return ResponseEntity.notFound().build();
+        return employee.map(value -> ResponseEntity.ok().body(value)).orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @GetMapping

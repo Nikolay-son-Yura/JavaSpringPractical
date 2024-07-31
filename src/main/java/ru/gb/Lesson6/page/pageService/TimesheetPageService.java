@@ -1,12 +1,11 @@
-package ru.gb.Lesson5.page.pageService;
+package ru.gb.Lesson6.page.pageService;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import ru.gb.Lesson5.model.Timesheet;
-import ru.gb.Lesson5.page.pageDto.TimesheetPageDto;
-import ru.gb.Lesson5.service.ProjectService;
-import ru.gb.Lesson5.service.TimesheetService;
+import ru.gb.Lesson6.model.Timesheet;
+import ru.gb.Lesson6.page.pageDto.TimesheetPageDto;
+import ru.gb.Lesson6.service.ProjectService;
+import ru.gb.Lesson6.service.TimesheetService;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -38,8 +37,7 @@ public class TimesheetPageService {
         timesheetPageParameters.setMinutes(String.valueOf(timesheet.getMinutes()));
         timesheetPageParameters.setCreatedAt(timesheet.getCreatedAt().format(DateTimeFormatter.ISO_DATE));
         timesheetPageParameters.setCreatedAt(timesheet.getCreatedAt().format(DateTimeFormatter.ISO_DATE));
-        timesheetPageParameters.setProject(timesheet.getProject());
-        timesheetPageParameters.setEmployee(timesheet.getEmployee());
+
 
         return timesheetPageParameters;
     }

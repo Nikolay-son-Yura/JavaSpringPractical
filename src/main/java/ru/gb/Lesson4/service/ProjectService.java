@@ -24,7 +24,7 @@ public class ProjectService {
         return projectRepository.getById(id);
     }
 
-    public List<Timesheet> getTimesheetsByProjectId(Long id) {
+    public List<Timesheet> getTimesheets(Long id) {
         List<Timesheet> timesheetsByProjectId = new ArrayList<>();
         for (Timesheet timesheet : timesheetRepository.findAll()) {
             if (timesheet.getProjectId().equals(id)) {
