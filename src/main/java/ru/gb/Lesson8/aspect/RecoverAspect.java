@@ -18,11 +18,14 @@ public class RecoverAspect {
 
     @Around(value = "recoverPointcut")
     public Object exception(ProceedingJoinPoint proceedingJoinPoint)throws Throwable{
+        String methodName=proceedingJoinPoint.toShortString().replaceAll("execution","");
 
         try {
             return proceedingJoinPoint.proceed();
         }catch (Exception e){
+            log.info("exception -> {}",methodName);
             return e.toString();
+
         }
 
     }

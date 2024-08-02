@@ -31,7 +31,7 @@ public class LoggingAspect {
             type = object.getClass().getSimpleName();
         }
         if (arg.length>0) {
-            log.info("1Before -> {}{}={}",methodName, type, arg);
+            log.info("Before -> {}{}={}",methodName, type, arg);
         } else {
             log.info("Before -> {}", methodName);
         }
