@@ -16,9 +16,9 @@ public class RecoverAspect {
     public void rrrrr() {
     }
 
-    @Around("rrrrr")
-    public Object exception(ProceedingJoinPoint proceedingJoinPoint)throws Exception{
-
-    }
+//    @Around("rrrrr")
+//    public Object exception(ProceedingJoinPoint proceedingJoinPoint)throws Exception{
+//
+//    }
 
 }

@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b8883af-fe8a-4809-b91d-83835197fca6" name="Changes" comment="commit5.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/TimesheetApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/aspect/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/controller/TimesheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Timesheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageController/EmployeePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageController/ProjectPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageController/TimesheetPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageDto/EmployeePageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageDto/ProjectPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageDto/TimesheetPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageService/EmployeePageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageService/ProjectPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageService/TimesheetPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/TimesheetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/UserRoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/security/MyCustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/service/TimesheetService.java" afterDir="false" />
+    <list default="true" id="2b8883af-fe8a-4809-b91d-83835197fca6" name="Changes" comment="commit8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Timesheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Timesheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/security/MyCustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/security/MyCustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees-page.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/timesheet-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/timesheet-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/timesheets-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/timesheets-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/aspect/RecoverAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/aspect/RecoverAspect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -298,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722443281575</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit8">
+      <option name="closed" value="true" />
+      <created>1722620622579</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722620622579</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +292,7 @@
     <MESSAGE value="commit4" />
     <MESSAGE value="commit5" />
     <MESSAGE value="commit5.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit5.1" />
+    <MESSAGE value="commit8" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit8" />
   </component>
 </project>
