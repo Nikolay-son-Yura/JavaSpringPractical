@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class RecoverAspect {
-
+// тут еще подумаю
     @Pointcut("execution(* ru.gb.Lesson8.service.*.*(..))")
     public void recoverPointcut() {
     }
