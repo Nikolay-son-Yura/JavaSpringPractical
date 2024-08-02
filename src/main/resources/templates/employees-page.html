@@ -15,7 +15,6 @@
         <th>Идентификатор сотрудника</th>
         <th>Имя</th>
         <th>Фамилия</th>
-        <th>Отдел</th>
         <th>Перейти к информации о сотруднике</th>
     </tr>
     </thead>
@@ -25,9 +24,6 @@
         <td><span th:text="${employee.firstName}"></span></td>
         <td><span th:text="${employee.lastName}"></span></td>
         <td><a th:href="@{'/home/employees/{id}'(id=${employee.id})}">Перейти к сотруднику</a></td>
-
-
-
     </tr>
     </tbody>
 </table>

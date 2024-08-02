@@ -1,4 +1,4 @@
-package ru.gb.Lesson7.security;
+package ru.gb.Lesson8.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -6,12 +6,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
-import ru.gb.Lesson7.model.Role;
-import ru.gb.Lesson7.model.User;
-import ru.gb.Lesson7.model.UserRole;
-import ru.gb.Lesson7.repository.RoleRepository;
-import ru.gb.Lesson7.repository.UserRepository;
-import ru.gb.Lesson7.repository.UserRoleRepository;
+import ru.gb.Lesson8.model.User;
+import ru.gb.Lesson8.model.UserRole;
+import ru.gb.Lesson8.model.Role;
+import ru.gb.Lesson8.repository.RoleRepository;
+import ru.gb.Lesson8.repository.UserRepository;
+import ru.gb.Lesson8.repository.UserRoleRepository;
 
 import java.util.List;
 

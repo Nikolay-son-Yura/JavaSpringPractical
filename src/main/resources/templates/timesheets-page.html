@@ -14,6 +14,7 @@
     <tr>
         <th>Идентификатор записи</th>
         <th>Проект</th>
+        <th>Сотрудник</th>
         <th>Минут потрачено</th>
         <th>Дата записи</th>
         <th>Перейти к записи</th>
@@ -22,7 +23,8 @@
     <tbody>
     <tr th:each="timesheet : ${timesheets}">
         <td><span th:text="${timesheet.id}"></span></td>
-        <td><a th:href="@{'/home/projects/{id}'(id=${timesheet.projectId})}" th:text="${timesheet.projectName}" ></a></td>
+        <td><a th:href="@{'/home/projects/{id}'(id=${timesheet.projectId})}" th:text="${timesheet.projectId}" ></a></td>
+        <td><a th:href="@{'/home/employees/{id}'(id=${timesheet.employeeId})}" th:text="${timesheet.employeeId}"></a></td>
         <td><span th:text="${timesheet.minutes}"></span></td>
         <td><span th:text="${timesheet.createdAt}"></span></td>
         <td><a th:href="@{'/home/timesheets/{id}'(id=${timesheet.id})}">Перейти к записи</a></td>

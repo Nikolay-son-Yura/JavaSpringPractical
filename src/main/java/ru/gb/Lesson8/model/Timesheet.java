@@ -1,4 +1,4 @@
-package ru.gb.Lesson6.model;
+package ru.gb.Lesson8.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -17,7 +17,7 @@ public class Timesheet {
     @EqualsAndHashCode.Include
     private Long id;
     private Long projectId;
-    private Long employeeId;
+    private Long EmployeeId;
     private Integer minutes;
     private LocalDate createdAt;
 

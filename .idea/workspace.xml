@@ -5,71 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8883af-fe8a-4809-b91d-83835197fca6" name="Changes" comment="commit5.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/TimesheetApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/controller/TimesheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Timesheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageController/EmployeePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageController/ProjectPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageController/TimesheetPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageDto/EmployeePageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageDto/ProjectPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageDto/TimesheetPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageService/EmployeePageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageService/ProjectPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/page/pageService/TimesheetPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/repository/TimesheetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/service/TimesheetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/TimesheetApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/controller/TimesheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/Timesheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageController/EmployeePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageController/ProjectPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageController/TimesheetPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageDto/EmployeePageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageDto/ProjectPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageDto/TimesheetPageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageService/EmployeePageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageService/ProjectPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/page/pageService/TimesheetPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/repository/TimesheetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/repository/UserRoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/security/MyCustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/service/TimesheetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/TimesheetApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/controller/TimesheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/Timesheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageController/EmployeePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageController/ProjectPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageController/TimesheetPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageDto/EmployeePageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageDto/ProjectPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageDto/TimesheetPageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageService/EmployeePageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageService/ProjectPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/page/pageService/TimesheetPageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/TimesheetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/repository/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/security/MyCustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson8/service/TimesheetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Timesheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson3/model/Timesheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson4/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/page/pageService/TimesheetPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/page/pageService/TimesheetPageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson5/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees-page.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees-page.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Timesheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson6/model/Timesheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/security/MyCustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Lesson7/security/MyCustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees-page.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employees-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/timesheet-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/timesheet-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/timesheets-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/timesheets-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,6 +65,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/time/LocalDateTime.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/Optional.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/6.3.1/spring-security-core-6.3.1.jar!/org/springframework/security/core/userdetails/UserDetails.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -111,12 +86,14 @@
     "Application.ru.gb.Lesson4.TimesheetApplication.executor": "Run",
     "Application.ru.gb.Lesson5.TimesheetApplication.executor": "Run",
     "Application.ru.gb.Lesson6.TimesheetApplication.executor": "Run",
+    "Application.ru.gb.Lesson7.TimesheetApplication.executor": "Run",
+    "Application.ru.gb.Lesson8.TimesheetApplication.executor": "Run",
     "Application.ru.gb.lesson4.TimesheetApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/JavaSpringPractical/src/main/java/ru/gb/Lesson7",
+    "last_opened_file_path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/JavaSpringPractical/src/main/java/ru/gb/Lesson8",
     "onboarding.tips.debug.path": "C:/Kolka/Учеба/Учеба/JAVA/JAVA Spring/Practical/JavaSpringPractical/src/main/java/ru/gb/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -126,46 +103,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\Lesson8" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\Lesson7" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\Lesson6\page\pageService" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\Lesson6\page\pageDto" />
       <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\Lesson6\page\pageController" />
-      <recent name="C:\Kolka\Учеба\Учеба\JAVA\JAVA Spring\Practical\JavaSpringPractical\src\main\java\ru\gb\Lesson6\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.Lesson8" />
       <recent name="ru.gb.Lesson7" />
       <recent name="ru.gb.Lesson6" />
       <recent name="ru.gb.Lesson6.service" />
       <recent name="ru.gb.Lesson4.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.Lesson5.TimesheetApplication">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson2.Program" />
-      <module name="JavaSpringPractical" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson3.TimesheetApplication" />
-      <module name="JavaSpringPractical" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.gb.Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ru.gb.Lesson8.TimesheetApplication">
     <configuration name="ru.gb.Lesson4.TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson4.TimesheetApplication" />
       <module name="JavaSpringPractical" />
@@ -205,13 +157,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.Lesson7.TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson7.TimesheetApplication" />
+      <module name="JavaSpringPractical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.gb.Lesson8.TimesheetApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.Lesson8.TimesheetApplication" />
+      <module name="JavaSpringPractical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.Lesson8.TimesheetApplication" />
         <item itemvalue="Application.ru.gb.Lesson6.TimesheetApplication" />
+        <item itemvalue="Application.ru.gb.Lesson7.TimesheetApplication" />
         <item itemvalue="Application.ru.gb.Lesson5.TimesheetApplication" />
         <item itemvalue="Application.ru.gb.Lesson4.TimesheetApplication" />
-        <item itemvalue="Application.TimesheetApplication" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721904130029</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit5.1">
+      <option name="closed" value="true" />
+      <created>1722443281575</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722443281575</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
