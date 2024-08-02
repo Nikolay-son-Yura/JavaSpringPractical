@@ -13,12 +13,18 @@ import org.springframework.stereotype.Component;
 public class RecoverAspect {
 
     @Pointcut("execution(* ru.gb.Lesson8.service.*.*(..))")
-    public void rrrrr() {
+    public void recoverPointcut() {
     }
 
-//    @Around("rrrrr")
-//    public Object exception(ProceedingJoinPoint proceedingJoinPoint)throws Exception{
-//
-//    }
+    @Around(value = "recoverPointcut")
+    public Object exception(ProceedingJoinPoint proceedingJoinPoint)throws Throwable{
+
+        try {
+            return proceedingJoinPoint.proceed();
+        }catch (Exception e){
+            return e.toString();
+        }
+
+    }
 
 }
